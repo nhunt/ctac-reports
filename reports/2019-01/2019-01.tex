@@ -1,0 +1,466 @@
+\documentclass[nonacm,acmtog]{acmart}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{subcaption}
+
+\input{../ctac-macros.tex}
+
+\title{CTAC-2019-1: Advice on the Use of Personal Tethers}
+\subtitle{Climbing Technical Advisory Committee}
+
+\begin{abstract}
+   Personal tethers are a valuable addition to the climbing system.  They offer
+   a quick and easy way for climbers to attach themselves to equalized anchors
+   or pieces of protection.  However, when used inappropriately or when made of
+   inappropriate materials, they can expose the climber to unnecessary risk.
+   This report looks at different types of personal tethers, evaluates them
+   based on their protection of the climber, and provides useful guidelines on
+   how to choose and use tethers in your own climbing.  In general, CTAC finds
+   that relying on the rope whenever possible is preferred, but when that's not
+   an option, using a separate tether that is dynamic and kept under tension is
+   ideal.
+\end{abstract}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+\label{sec:intro}
+
+   A personal tether is a piece of material used to connect a climber directly
+   to an equalized anchor or piece of protection.  Often, this comes in the form
+   of a single- or double-length sling girth-hitched to the harness, or as a
+   piece of gear specially made for the purpose, such as the Petzl Connect
+   Adjust~\cite{gear:connect} or the Metolius PAS~\cite{gear:pas}.  When used
+   appropriately, tethers enable quick and efficient transitions between
+   different climbing systems (e.g., from climbing to rappels).  However, when
+   used incorrectly or when constructed with inappropriate materials, they can
+   expose the climber to unnecessary risk.
+
+   Given the wide range of specialty tethers and materials out there, it can
+   sometimes be challenging to find the data needed to make decisions about the
+   appropriateness of a particular setup.  In this report, we aim to aggregate
+   data from a few different sources, showing the relative strength of each
+   material in a number of static and dynamic tests, as well as the ability of
+   the materials to absorb the impact of a fall of various fall factors (FF).
+
+   Our goal is to collect this information in a single place, review the
+   results, and provide a number of actionable pieces of advice for climbers to
+   improve their safety when using a tether.  \S\ref{sec:studies} introduces
+   the data used to make our recommendations; \S\ref{sec:guidelines} provides
+   three general guidelines for tether use based on this data;
+   \S\ref{sec:recommendations} looks at specific products commonly used as
+   tethers and provides CTAC's feedback on each; and finally,
+   \S\ref{sec:conclusions} summarizes our findings.
+
+\section{Summary of Data Used}
+\label{sec:studies}
+
+   Our two primary sources for material strength and dynamic testing are
+   reports produced by two prominent climbing equipment manufacturers, Black
+   Diamond \cite{bd-pull-tests} and DMM \cite{dmm-pull-tests}.  A summary of
+   their results is included in Tables~\ref{tab:bd-results} and
+   \ref{tab:dmm-results}, respectively.  For more information on the
+   experimental setups and how these results were obtained, please refer to the
+   original cited reports cited.  In these tables, all forces are reported in
+   kilonewtons (kN).
+
+   Looking first at Black Diamond's results in Table~\ref{tab:bd-results},
+   columns 1 and 2 describe the type of material and the specific product that
+   tested, column 3 shows the peak force during static pull tests before the
+   material failed, columns 4 and 5 show the peak forces measured for different
+   dynamic drop tests at FF~0.5 and FF~1, respectively, and column 6 includes any
+   additional notes reported by Black Diamond for that particular
+   configuration.
+
+   For the DMM results, columns 1 and 2 show the material under test and
+   columns 3 and 4 show the peak impact force measured with dynamic drop tests
+   at FF~1 and FF~2, respectively.
+
+   \begin{table*}
+      \centering
+      \Small
+      \begin{tabular}{|l|l||c|cc||l|}
+      \hline
+      \multicolumn{2}{|c||}{\bf Material} &
+         {\bf Static} &
+         {\bf FF~0.5} &
+         {\bf FF~1} &
+         {\bf Comments} \\
+      \hline
+      \multirow{3}{*}{Dyneema/Nylon Mix} &
+         BD 60 cm Dynex sling &
+         26.1 &
+         13.8 &
+         20.9 &
+         Rated to 22 kN \\
+         &
+         Metolius PAS &
+         22.5 &
+         10.9 &
+         17.6 &
+         Rated to 22 kN \\
+         &
+         BD Dynex Daisy &
+         26.0 &
+         2.8 &
+         4.9 &
+         Ripped anywhere from 5 to 8 pockets during the fall \\
+      \hline
+      \multirow{2}{*}{Nylon} &
+         BD 18mm 60 cm sling &
+         26.6 &
+         5.3 &
+         9.0 &
+         \\
+         &
+         Sterling Chain Reactor &
+         17.5 &
+         7.9 &
+         11.0 &
+         \\
+      \hline
+      \multirow{3}{*}{Rope-based systems} &
+         Rope (10.2mm) &
+         13.5 &
+         3.2 &
+         4.6 &
+         \\
+         &
+         Petzl Connect Adjust &
+         4.4 &
+         4.5 &
+         4.8 &
+         Started to slip at 4.4 kN during static tests, but did not break \\
+         &
+         Purcell Prusik (7mm) &
+         18.6 &
+         3.9 &
+         5.3 &
+         \\
+      \hline
+      \end{tabular}
+      \caption{Summary of Black Diamond's Static and Dynamic Drop Tests.  See
+         \cite{bd-pull-tests} for full test results.}
+      \label{tab:bd-results}
+   \end{table*}
+
+   \begin{table}
+      \centering
+      \Small
+      \begin{tabular}{|l|l||cc|}
+      \hline
+      \multicolumn{2}{|c||}{\bf Material} &
+         {\bf FF~1} &
+         {\bf FF~2} \\
+      \hline
+      \multirow{3}{*}{Dyneema} &
+         8mm sling, single-length (60cm) &
+         17.8 &
+         22.5* \\
+         &
+         11mm Dyneema sling, single-length (60cm) &
+         16.7 &
+         25.1* \\
+         &
+         11mm Dyneema sling, double-length (120cm) &
+         22.4* &
+         21.2* \\
+      \hline
+      \multirow{3}{*}{Nylon} &
+         16mm sling, single-length (60cm) &
+         11.6 &
+         15.4 \\
+         &
+         26mm sling, single-length (60cm) &
+         11.8 &
+         16.3 \\
+         &
+         16mm sling, double-length (120cm) &
+         12.8 &
+         17.6 \\
+      \hline
+      \end{tabular}
+      \caption{Summary of DMM Drop Tests.  See \cite{dmm-pull-tests} for full
+         results.  A * indicates the test configuration failed.}
+      \label{tab:dmm-results}
+   \end{table}
+
+   Aside from the material strength data discussed above, CTAC also considered
+   standards from the Occupational Safety and Health
+   Administration (OSHA)~\cite{ref:osha} for the maximum acceptable impact force
+   workers at height.  Although the OSHA standards are written in the context
+   of occupational protection and do not, in general, apply directly to the
+   world of recreational climbing, CTAC found it was useful in this particular
+   case to use their recommendations regarding peak impact forces on the human
+   body, which were chosen to reflect the ability of the human anatomy to
+   safely dissipate impact forces.  In particular, OSHA recommends the peak
+   impact force experienced by a person using personal protection equipment is
+   limited to around 8 kN of force~\cite[\S1910.140(d)(1)(i)]{ref:osha-peak}.
+
+\section{Guidelines for Tether Use}
+\label{sec:guidelines}
+
+   Based on the data from \S\ref{sec:studies}, here we provide a few general
+   recommendations on the use of personal tethers and establish some guidelines
+   to help decide which types of personal tethers to use.  In
+   \S\ref{sec:recommendations}, these guidelines will be used to make specific
+   recommendations for different types of tethers.
+
+\subsection{Limit Peak Impact Force to 8 kN}
+
+   When choosing a personal tether system, CTAC recommends that the chosen
+   system minimizes the peak impact forces experienced by climbers, ideally
+   limiting the force to 8 kN or less.  This number comes directly from the
+   OSHA regulations cited previously.
+
+   The peak impact force is a function of both the tether material, as well as
+   how the tether is used (more details on this below).  Climbers should make
+   sure to use their tether in a way that limit forces they are likely to
+   encounter, such as by keeping slack out of the system and staying below the
+   tether's attachment point to the anchor.
+
+\subsection{Keep the System Dynamic}
+\label{sec:forces}
+
+   As evidenced by Tables~\ref{tab:bd-results} and~\ref{tab:dmm-results}, one of
+   the simplest ways to limit peak impact forces is to use a dynamic material
+   for the tether.  Both the fully dynamic rope-based system and the semi-static
+   nylon-based systems do a good job of keeping peak forces around 8 kN during
+   dynamic drop tests of up to FF~1, though the nylon-based materials typically
+   produced a slightly higher limit when compared to the rope based systems.
+   Additionally, the static pull tests show that the materials themselves are
+   capable of holding much greater forces, far exceeding the typical forces seen
+   in climbing scenarios.
+
+   As a point of contrast, consider the static materials in these tables, such
+   as the Dyneema/Spectra.  Even at relatively small fall factors of 0.5, some
+   of these materials were producing forces in excess of 10~kN---enough to
+   cause injury to the climber---even though the overall system did not fail.
+
+   Based on these results, it's clear that dynamic materials do a much better
+   job of dissipating the fall forces and keeping the peak forces experienced by
+   the climber below the previously defined threshold.
+
+%\subsection{Use the Rope When Possible}
+%
+%   Given that dynamic materials should be preferred over static materials for
+%   tethers, it should be clear that the rope is a likely candidate for personal
+%   tether material.  In fact, since climbers are tied in to the climbing rope
+%   for the entire ascent, using the climbing rope is often the fastest and
+%   (according to the results in Table~\ref{tab:bd-results}) the strongest way
+%   to secure yourself to the anchor.
+%
+%   As we'll discuss in \S\ref{sec:recommendations}, CTAC recommends using the
+%   climbing %rope as the personal tether whenever possible.
+
+\subsection{Keep the System Weighted}
+
+   Another observation we can make from the data in Tables~\ref{tab:bd-results}
+   and~\ref{tab:dmm-results} is that impact forces rise fairly quickly as the
+   fall factor increases.  As one concrete example, the Metolius PAS registered
+   a peak impact force of 10.9~kN with a FF~0.5 drop test, whereas a FF~1 drop
+   produced 17.6~kN, well beyond the safe limits for the human body.  As a
+   result, we'd like to ensure that whatever system we use, we use it in a way
+   that limits our exposure to these higher fall factors.
+
+   One technique to doing this is to ensure we keep our tether weighted whenever
+   possible.  If the tether system is kept weighted at all times, then falls
+   are prevented entirely.  If it is impossible to keep the system under
+   tension, then taking other steps to reduce the risk of FF~1 or higher falls
+   is critical.  One way this can be done, for example, by ensuring the master
+   point of the anchor is above the climber's waist.
+
+   Since the location of the anchor is not always controllable, and because
+   climber's may need to move around once they have been secured to the anchor
+   with a tether, having an adjustable tether that can accommodate a variety of
+   tether lengths will greatly improve the climber's ability to keep the system
+   weighted, even with these variations.  Because of this, CTAC finds that
+   adjustable tethers are generally favored over fixed-length tethers.
+
+\section{Specific Tether Recommendations}
+\label{sec:recommendations}
+
+   This section uses the guidelines established in \S\ref{sec:guidelines} to
+   make recommendations on specific types of personal tethers.  These
+   recommendations are summarized in Table~\ref{tab:summary}, and discussed in
+   more detail below.
+	
+	\begin{table}
+	\Small
+	\centering
+	\begin{tabular}{|r||c|}
+		\hline
+		\multicolumn{1}{|c||}{\bf Type of tether} & {\bf Recommended?} \\
+		\hline
+		Climbing Rope & Yes (preferred) \\
+		Rope-based tethers (e.g., Connect Adjust) & Yes, (preferred)  \\
+		\hline
+		Sterling Rope Chain Reactor & Yes \\
+		Metolius PAS & Yes \\
+		Nylon Slings & Yes \\
+		\hline
+		Daisy Chains & No \\
+		Spectra/Dyneema Slings & No \\
+		\hline
+	\end{tabular}
+	\caption{Summary of tether recommendations}
+	\label{tab:summary}
+\end{table}
+
+
+\subsection{CTAC Preferred Personal Tethers}
+\label{sec:recommended}
+
+   The tethers in described in this section are the preferred systems by CTAC.
+   They do the best job of meeting the guidelines set forth in
+   \S\ref{sec:guidelines} and should be used whenever possible.
+
+\subsubsection{Climbing Rope}
+
+   The climbing rope is the single strongest piece of climbing gear we take on
+   the wall, and is dynamic by design.  When leading routes, climbers
+   implicitly trust that climbing rope can repeatedly catch large falls without
+   causing undue harm to the climbers or equipment.
+
+   CTAC recommends using the rope as a tether whenever possible.  It's fast,
+   strong, dynamic, and adjustable (with a clove hitch).  The data from Black
+   Diamond shows that the climbing rope has the lowest measured impact force of
+   all options for FF~1 (4.6~kN), well below the OSHA recommended limit of 8~kN.
+   And you're already tied in to it on the ascent!
+
+   Unfortunately, the climbing rope isn't always available as a personal tether
+   option: one example where this is the case is during rappels where the
+   climber is no longer tied in to the end of the rope.  In these cases, one of
+   the other tethers described in this section should be used instead.
+
+\subsubsection{Petzl Connect Adjust (or similar)}
+
+   The Petzl Connect Adjust is a manufactured tether made from 9.2mm climbing
+   rope.  Since its made from a climbing rope, it has all of the advantages
+   described in the previous section of using the rope directly; however since
+   it is an independent system from the main climbing rope, it can be used even
+   during the descent.  Other rope-based systems produced by different
+   manufactures are likely to be similar.
+
+   The primary downside of rope-based tethers are the relative bulk when
+   compared to the alternatives described below; keeping a short-section of rope
+   attached to your harness during the ascent can be awkward for climbers,
+   especially when leading routes with already-crowded gear loops.  However,
+   this disadvantage can be minimized by only relying on the rope-based tether
+   during the descent, when the majority of climbing protection can be removed
+   from the harness.  During the ascent, CTAC recommends using the main climbing
+   rope directly.
+
+\subsection{Other Recommended Personal Tethers}
+
+   The tethers described here are also recommended by CTAC, but generally
+   require more careful attention on the part of the climber to be used
+   correctly.  For example, both options discussed here are constructed from
+   semi-static materials, which can result in higher impact forces if used
+   incorrectly.
+
+\subsubsection{Sterling Rope Chain Reactor / Metolius PAS}
+
+   The Chain Reactor and PAS are each constructed of a series of interlocking
+   loops.  The chain reactor is primarily a Nylon-based tether, whereas the PAS
+   is a Dyneema/Nylon mix.
+
+   Since each loops on these tethers is fully-rated, the loops make it
+   easy to adjust the length of the tether to match the position of the anchor,
+   allowing the climber to ensure the tether remains weighted.  Additionally,
+   the loops can also be used as a convenient rappel extension.  These systems
+   are very popular in the recreational climbing community, due to their
+   simplicity and availability in many popular retail stores.
+
+   Though the Nylon-only Chain Reactor has lower peak impact forces than the
+   Dyneema/Nylon PAS, both resulted in fairly high forces during Black
+   Diamond's drop tests.  Both solutions exceeded our target of 8 kN peak with
+   FF~1 drops.  The PAS exceeded our target even at FF 0.5 drops, though the
+   Chain Reactor was just barely under the bar.
+
+   Due to the adjustability of these options, however, when used appropriately
+   and kept under tensions at the anchors, these are considered viable tether
+   options by CTAC.  However, for beginning climbers, a dynamic rope-based
+   system may be preferred as it can offer increased protection against
+   accidental falls.
+
+\subsubsection{Nylon Slings}
+
+   Nylon slings offer a simple, semi-static tether.  They are not quite as
+   dynamic as climbing-rope based systems, but they are more dynamic then the
+   Dyneema/Spectra materials. As such, their peak impact forces tend to be
+   between those two extremes as well.
+
+   When used appropriately, where the tether is an appropriate length and
+   clipped above the climber's waist, impact forces for falls were well within
+   material-strength and human body limits.  Black Diamond's results showed
+   forces that were less than 6 kN with FF 0.5 falls.  However, at higher
+   drops, impact forces jumped to 11-12 kN at FF 1 and 15-17 kN at FF 2.
+   Though this is within the boundaries of material strength (the Nylon slings
+   did not fail in either set of tests), the high impact forces would likely be
+   quite dangerous to the climber.
+
+   As such, using Nylon slings as personal tethers requires strict adherence to
+   the previous suggestions of keeping the system under tension or otherwise
+   minimizing the likelihood of falls.
+
+\subsection{Not Recommended Personal Tethers}
+\label{sec:notrecommended}
+
+   Based on CTAC's review, the tethers described here should not be used by
+   climbers.  They expose the climber to too much unnecessary risk, especially
+   given the number of alternatives on the market (see previous sections).
+
+\subsubsection{Daisy Chains}
+
+   Daisy chains, which are slings that have a number of ``pockets'' stitched
+   along the length of the sling, were designed for use during aid climbing and
+   were never meant to be used as a personal tether.  Though they seem like a
+   convenient and adjustable tether, their construction makes it easy for a
+   climber to inadvertently clip across a single, non-load-bearing tack, which
+   can fail in even short falls.  This will result in catastrophic failure for
+   the climber.
+
+   Additionally, these pockets are not load bearing and will fail at relatively
+   low forces (Table~\ref{tab:bd-results}), leaving the daisy destroyed as a
+   result.  The previous results showed that even at a modest 0.5 FF drop, 5 of
+   the 8 pockets were torn.
+
+   Because of ease of mis-rigging, the one-time use of the daisy, and the wide
+   availability of other, more versatile options, CTAC does not recommend the
+   use of daisy chains in any capacity outside of traditional aid climbing.
+
+\subsubsection{Spectra or Dyneema Slings}
+
+   Climbers often have many single- and double-length Dyneema/Spectra slings on
+   their harness.  They are a light-weight piece of material that can be used to
+   construct anchors, equalize protection, and construct extendable quick draws.
+   However, these materials are not dynamic, with very little to no extension
+   when placed under load.
+
+   Based on the forces highlighted previously both Black Diamond's and DMM's
+   drop test results, these materials can put an excessively large force on the
+   climber, the anchor, and the sling itself.  Even relatively short falls can
+   generate enough force for any one of those components to fail
+   catastrophically, as evidenced by the failures in DMM's drop tests.
+
+   Because of the high risk of failure, lack of adjustability, and the wide
+   availability of better options, CTAC does not recommend the use of these
+   materials as a personal tether.
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+   This report consolidated results from two different drop tests completed by
+   well-known climbing gear manufacturers.  Based on their results, CTAC made a
+   number general recommendations on the appropriate use of tethers in the
+   climbing system, and specific recommendations of particular personal tether
+   material and products.  In general, keeping the personal tether dynamic and
+   under tension is the best way to mitigate the risk of high impact falls and
+   equipment failure.
+
+\bibliographystyle{plain}
+\bibliography{../ctac.bib}
+\end{document}
