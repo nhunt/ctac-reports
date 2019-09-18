@@ -1,11 +1,14 @@
 DOCID=$(shell basename $(CURDIR))
 TARGET=$(DOCID).pdf
+HTMLTARGET=$(DOCID).html
 SRC=$(DOCID).tex
 PDFTEX=pdflatex
 BIBTEX=bibtex
+PANDOC=pandoc
+PANDOCOPTS=
 
 .PHONY: all
-all: $(TARGET)
+all: $(HTMLTARGET) $(TARGET)
 
 %.pdf: %.tex
 	TEXINPUTS="..:" $(PDFTEX) $<
@@ -13,10 +16,13 @@ all: $(TARGET)
 	TEXINPUTS="..:" $(PDFTEX) $<
 	TEXINPUTS="..:" $(PDFTEX) $<
 
+%.html: %.tex
+	$(PANDOC) -o $@ --self-contained --template=../ctac-template.html $<
+
 .PHONY: clean
 clean:
 	rm -f *.aux *.bbl *.blg *.log *.out
 
 .PHONY: distclean
 distclean: clean
-	rm -f $(TARGET)
+	rm -f $(TARGET) $(HTMLTARGET) diff.pdf
