@@ -5,7 +5,7 @@ SRC=$(DOCID).tex
 PDFTEX=pdflatex
 BIBTEX=bibtex
 PANDOC=pandoc
-PANDOCOPTS=
+PANDOCOPTS=-N --self-contained --template=../ctac-template.html
 
 .PHONY: all
 all: $(HTMLTARGET) $(TARGET)
@@ -17,7 +17,9 @@ all: $(HTMLTARGET) $(TARGET)
 	TEXINPUTS="..:" $(PDFTEX) $<
 
 %.html: %.tex
-	$(PANDOC) -o $@ --self-contained --template=../ctac-template.html $<
+	awk -f ../moveAbstract.awk $< > temp.tex
+	$(PANDOC) $(PANDOCOPTS) -o $@ temp.tex
+	rm -f temp.tex
 
 .PHONY: clean
 clean:
