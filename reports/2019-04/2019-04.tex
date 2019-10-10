@@ -1,7 +1,9 @@
-\documentclass[nonacm,acmtog,authordraft]{acmart}
+\documentclass[nonacm,acmtog]{acmart}
 \usepackage{xcolor}
 \usepackage{graphicx}
+\usepackage{url}
 \usepackage{subcaption}
+\usepackage{hyperref}
 \input{../ctac-macros.tex}
 
 % Based off of Google Drive "Draft 1"
@@ -91,34 +93,14 @@
   \item Visually verifiable safety buckle
   \end{itemize}
 
-\section{Resources and Further Reading}
-
-  \begin{itemize}
-  \item Union Internationale des Associations d’Alpinisme (UIAA) ``UIAA
-    STANDARD 105/ HARNESSES Recommendations for Inspection and Retirement''
-    www.theuiaa.org/safety-standards/research-information
-  \item British Mountaineering Council (BMC) ``Harnesses - a guide for climbers
-    and mountaineers'' www.thebmc.co.uk/bmc-technical-advice-booklets
-  \item American Society for Testing and Materials (ASTM) ``ASTM F1772-17
-    Standard Specification for Harnesses for Rescue and Sport Activities''
-    www.astm.org/Standards/F1772.htm
-  \item European Standards (EN) ``CSN EN 12277+A1 Mountaineering equipment -
-    Harnesses - Safety requirements and test methods''
-    www.en-standard.eu/csn-en-12277-a1-mountaineering-equipment-harnesses-safety-requirements-and-test-methods/
-  \item MEC ``How To Choose a Climbing Harness''
-    www.mec.ca/en/explore/how-to-choose-a-climbing-harness
-  \item REI ``How To Choose Climbing Harnesses''
-    www.rei.com/learn/expert-advice/climbing-harness.html
-  \item Rock \& Ice – The Climber’s Magazine ``How To Choose a Harness''
-    www.rockandice.com/gear/buying-tips/how-to-choose-a-harness
-  \end{itemize}
-
 % ==============================================================================
 % ==[ Bibliography ]============================================================
 % ==============================================================================
 
-%\bibliographystyle{plain}
-%\bibliography{../ctac.bib}
+\nocite{bmc:harness,mec:harness,rei:harness,rockandice:harness,en:harness,uiaa:harness,astm:harness}
+
+\bibliographystyle{plain}
+\bibliography{../ctac.bib}
 \end{document}
 
 % ==============================================================================
