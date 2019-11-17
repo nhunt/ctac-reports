@@ -6,13 +6,22 @@
 
 % Based off of Google Drive "Draft 1"
 
+\newcommand{\dummyfig}[3]{
+  \centering
+  \fbox{
+    \begin{minipage}[c][#3][c]{#2}
+      \centering{#1}
+    \end{minipage}
+  }
+}
+
 % ==============================================================================
 % ==[ Header information ]======================================================
 % ==============================================================================
 
-\title{CTAC-2019-03: Pre-Rigged Rappels}
+\title{CTAC-2019-03: Pre-Rigged Rappels for Safety and Speed}
 \subtitle{Climbing Technical Advisory Committee}
-\author{Jeff Hunt}
+%\author{Jeff Hunt}
 
 % ==============================================================================
 % ==[ Abstract ]================================================================
@@ -42,24 +51,33 @@
 % ==============================================================================
 
   Pre-rigging a rappel is a technique that enables multiple climbers to
-  simultaneously set up and check their rappels.  It has the potential to
-  increase both climber safety and speed, by enabling partner checks and
-  parallelizing the rigging.  In scenarios where an experienced climber is
-  descending with an inexperienced climber, it allows the more experienced
-  climber to set up the rappel for their novice, who may be uncomfortable in
-  high angle terrain or unable to rig their own rappel with confidence.
+  simultaneously set up and check their rappels on the same rope system.  It
+  has the potential to increase both climber safety and speed, by enabling
+  partner checks and parallelizing the rigging process.  In scenarios where an
+  experienced climber is descending with an inexperienced climber, it also
+  allows the more experienced climber to set up the rappel for their
+  novice---who may be uncomfortable in high angle terrain or unable to rig
+  their own rappel with confidence---before descending first and providing
+  further protection from below.
 
-  For private parties, the general acceptance of pre-rigging rappels is
-  difficult to gauge although likely it is not commonly used.  This may be due
-  to the lower publicity than other rappelling safety techniques such as using
-  a rappel backup, tying knots in the end of the ropes, etc.  For example, the
-  AAC article Rappelling published March 2018, mentions pre-rigging but only in
-  passing.
+  Although pre-rigged rappels have become a popular technique in the guiding
+  community, based on the experiences of this committee it has not seen as much
+  popularity with private parties or climbing clubs, despite it's advantages in
+  safety and speed.  We suspect this may be because publicly available material
+  on this technique is simply less common compared to material discussing
+  traditional rappelling techniques.  For example, one popular article on
+  rappelling~\cite{www:aac-rappelling} only mentions pre-rigged rappels in
+  passing, instead focusing the article on the more traditional rappel methods.
 
-  This report begins by describing how to properly set up a pre-rigged rappel
-  in \secref{sec:setup}. This is followed by an in-depth discussion of the
-  benefits of this technique in \secref{sec:benefits}, followed by a discussion
-  of the weaknesses and trade-offs in \secref{sec:limitations}.
+  The purpose of this report is to increase awareness of this technique and to
+  advocate for its usage, especially by larger groups of climbers.
+  \secref{sec:setup} begins by describing how to properly set up a pre-rigged
+  rappel.  This is followed by discussion of the technique's strengths and
+  limitations in \secref{sec:benefits} and \secref{sec:limitations}
+  respectively.  \TODO \secref{sec:mountaineers} provides an overview of where and
+  how this technique is currently taught within the Mountaineers climbing
+  courses, and \secref{sec:conclusion} concludes this report with CTAC's
+  recommendation of using this technique whenever possible.
 
 % ==============================================================================
 \section{Setting up a Pre-Rigged Rappel}
@@ -71,42 +89,73 @@
   4:55]{mountaineers:rappel-video}, though we briefly describe the process
   below.
 
-  First, prepare each climber's rappel sling for an extended rappel, as
-  described in CTAC 2019-02~\cite{ctac:2019-2}, ensuring each climber is
-  attached to the rappel anchor with their personal tether.  Then each climber
-  can independently attach their rappel device to the rope, ensuring the device
-  of the first person to rappel is at the lowest point on the rope.  Finally,
-  the first person to rappel attaches an autoblock backup to the rope.
+  First, each climber prepares for an extended rappel and secures their
+  personal tether to the rappel anchor (for more information on the rigging of
+  extended rappels, refer to CTAC 2019-02~\cite{ctac:2019-2}).  With personal
+  tethers in place, all climbers can independently attach their own rappel
+  device to the rope, with each device immediately below the previous.  Rappel
+  devices set up in this fashion are said to be ``stacked''. The climber
+  furtherest away from the anchor will be the first to descend, and should
+  also attach an autoblock below their device to act as a backup, exactly like
+  a standard rappel.  The final setup for two climbers should look like
+  Figure~\ref{fig:final-setup}, though this setup can easily extend to three or
+  more climbers as well.
+  
+  \begin{figure}
+     \dummyfig{Final setup of the pre-rigged rappel.  Image forthcoming.}
+       {2.5in}{1.5in}
+     \caption{Final setup of the pre-rigged rappels for two climbers.  Both
+       climbers are secured with their tethers to the anchor and have their
+       rappel devices on the rope.  The first climber to descend has an
+       autoblock backup on rope as well.}
+     \label{fig:final-setup}
+  \end{figure}
 
-  The other climber's rappel can be backed up with an autoblock (preferred) or
-  with a fireman's belay by the first rappeller.  Each climber checks the
-  other's climber's rappel setup.  Before rappelling, each climber tests their
-  rappel setup by weighting the rope with the rappel device with slack in the
-  personal tether The first rappeller detaches their personal tether and
-  rappels to the ground or the next anchor When the first rappeller goes off
-  rappel, the second rappeller detaches their personal tether and rappels.
+  In addition to the standard benefits of using extended rappels, the rappel
+  extensions in this setup also help ensure that climbers aren't too crowded at
+  the station and help to isolate the climbers from any side-to-side motion of
+  the rappel line as they await their turn to descend.
 
-\subsection{Testing Before Use}
+\subsection{Beginning the Descent}
 
-  Multiple rappel devices attached to the rappel rope adds complexity that
-  could make visual assessment of the rigging more difficult especially in an
-  adverse environment such as low lighting, wind, and rain.  However, this is a
-  minor consideration with respect to the benefits of each climber cross
-  checking the other climbers' rigging as well and their own.
+  Once the pre-rigged rappels are set up as described above, each climber can
+  visually inspect both their own rappel systems, as well as the systems of
+  their climbing partners.  With cross-checks complete, the first climber to
+  descend (the one whose rappel device is furtherest from the rappel anchor)
+  can then test their setup by weighting the device and verifying its operation,
+  before removing their tether and beginning their descent.
 
-  Pre-rigging the rappel does not change the ability to test the rappel before
-  use.  That is, with the personal tether attached and with slack, the climber
-  next up to rappel can test if the rappel device has been properly rigged
-  before removing the tether.  It is conceivable, however, that the act of
-  cross checking or assumed cross checking could engender complacency in
-  testing.  For this reason the CTAC recommendation that when using pre-rigged
-  rappels:
+  The other climbers remain at the top of the pitch, attached to the rope via
+  their rappel extensions and personal tethers.  Once the first rappeller goes
+  off rappel, the next to descend can remove their tether from the anchor and
+  begin their descent, optionally adding an autoblock to the rope as a backup,
+  or relying on the previous rappellers to provide a fireman's belay from
+  below.  Either form of backup is adequate, though the decision on which to
+  use should be clearly communicated with all climbers before anyone descends.
 
-  \begin{enumerate}
-  \item Cross checking is explicit with verbal confirmation.
-  \item Rappel rigging is tested with the personal tether attached and slack
-    before the tether is removed.
-  \end{enumerate}
+%\subsection{Testing Before Use}
+
+  % TODO: Move this paragraph to the next section?
+  %
+  %Multiple rappel devices attached to the rappel rope adds complexity that
+  %could make visual assessment of the rigging more difficult especially in an
+  %adverse environment such as low lighting, wind, and rain.  However, this is a
+  %minor consideration with respect to the benefits of each climber cross
+  %checking the other climbers' rigging as well and their own.
+
+  %Pre-rigging the rappel does not change the ability to test the rappel before
+  %use.  That is, with the personal tether attached and with slack, the climber
+  %next up to rappel can test if the rappel device has been properly rigged
+  %before removing the tether.  It is conceivable, however, that the act of
+  %cross checking or assumed cross checking could engender complacency in
+  %testing.  For this reason the CTAC recommendation that when using pre-rigged
+  %rappels:
+
+  %\begin{enumerate}
+  %\item Cross checking is explicit with verbal confirmation.
+  %\item Rappel rigging is tested with the personal tether attached and slack
+  %  before the tether is removed.
+  %\end{enumerate}
 
 
 % ==============================================================================
@@ -114,50 +163,66 @@
 \label{sec:benefits}
 % ==============================================================================
 
-  Pre-rigging rappels has several benefits, broadly classified as either
-  improving climber safety or group efficiency.
+  Pre-rigging rappels in this fashion offers several benefits, broadly
+  classified as either improving climber safety or group efficiency.
 
 \subsection{Increased Climber Safety}
 
-  Pre-rigging allows each climber's rappel setup to be checked by other members
-  of their group.  This is true even for the last person to descend, who
-  traditionally does not have the opportunity for a partner check.
+  Rappel accidents due to incorrectly attached rappel devices are,
+  unfortunately, reported every year.  These types of climbing accidents can be
+  prevented by testing a rappel setup before removing the tether, and by having
+  one or more partners provide a visual cross-check each others device---a
+  standard practice when it comes to belaying.
+  
+  However, with a traditional rappel, climbers set up their devices only when
+  it is their turn to descend and the last to rappel is alone at the top of the
+  pitch, making a partner check impossible.  Pre-rigged rappels, however, allow
+  {\em all} climbers to have their systems be checked by other members of their
+  group before anyone descends: a distinct advantage over standard rappels. 
 
   Additionally, as described briefly in \secref{sec:intro}, pre-rigged rappels
   allow experienced climbers to help a novice setup their rappel, rather than
   leaving the novice to fend for themselves in a stressful and distracting
-  environment.  The more experienced climber can then descend first, find and
-  prepare the next rappel station, and provide a fireman's belay to the
-  novice from below.  The weight of the experienced climber on the rope will
-  prevent the novice climber from descending early, and since the experienced
-  climber rigged and checked the novice's rappel before descending, there's no
-  concern over the novice mis-rigging their rappel.
+  environment.  The more experienced climber can verify the novice's setup,
+  descend, find and prepare the next rappel station, and provide a fireman's
+  belay to the novice from below.  The weight of the experienced climber on the
+  rope will also prevent the novice climber from descending early, and at no
+  point is the novice left alone with an unverified system.
 
-\subsection{Increased Group Speed}
+\subsection{Increased Group Efficiency}
 
-  In addition to improved safety, pre-rigged rappels can greatly enhance a
-  climbing group's efficiency.  A pre-rigged rappel can improve the overall
-  speed of everyone getting down the rope i
+  Pre-rigged rappels can greatly enhance a climbing group's overall descent
+  efficiency.  With standard rappels, each climber rigs and checks their rappel
+  device immediately before descending.  Because this requires the rappel rope
+  to be slack, they must wait to do this until the previous climber has
+  completed their descent.  See the top-half of Figure~\ref{fig:schematic} for
+  a visual representation of this, showing a timeline of the rig, check, and
+  descend steps for three climbers (labelled A, B, and C).
+  
+  \begin{figure}
+   \includegraphics[width=0.45\textwidth]{images/schematic.pdf}
+   \caption{Saving time with pre-rigged rappels.  Because the rigging and
+   checking of the rappel setups can all happen at the same time, overall time
+   spent rappelling on a pitch is reduced.}
+   \label{fig:schematic}
+  \end{figure}
 
-  This is described in detail in an Alpine Savvy blog posting as
-  follows\cite{alpinesavvy:pre-rigged-rappels}:
+  With pre-rigged rappels, however, the rigging and checking can be performed
+  at the same time; see the bottom half of the same figure for an example,
+  where these blocks overlap in time.  This effect is described Alpine Savvy
+  blog posting as follows~\cite{alpinesavvy:pre-rigged-rappels}: ``[Pre-rigged
+  rappels] eliminate the downtime of waiting for climbers to rig the rappel
+  one-by-one ...  The moment the Rapper 1 goes off rappel, they quickly feed a
+  couple meters of rope through their device and Rapper 2 can head down
+  immediately. The movement of climbers down the rope is pretty much constant,
+  with no waiting for someone to rig.''
 
-  \begin{quote}
-  ``... it eliminates the downtime of waiting for climbers to rig the rappel
-  one-by-one.  After rigging up, everyone can be on the tensioned rope without
-  being yanked around because of the extension. When Rapper 1 is on rappel,
-  Rapper 2 is putting on their autoblock knot. The moment the Rapper 1 goes off
-  rappel, they quickly feed a couple meters of rope through their device and
-  Rapper 2 can head down immediately. The movement of climbers down the rope is
-  pretty much constant, with no waiting for someone to rig.''
-  \end{quote}
-
-  Another efficiency gain comes when quads are used as the safety system at the
-  rappel chains---a technique that's useful in a multi-rappel setting.  Since
-  the final rappeller will be secured to the climbing rope with their rappel
-  device, they can tear down the quad while the second-to-laste climber is
-  descending.  This way they will be ready to descend as soon as the previous
-  climber reaches the next anchor.
+  %Another efficiency gain comes when quads are used as the safety system at the
+  %rappel chains---a technique that's useful in a multi-rappel setting.  Since
+  %the final rappeller will be secured to the climbing rope with their rappel
+  %device, they can tear down the quad while the second-to-laste climber is
+  %descending.  This way they will be ready to descend as soon as the previous
+  %climber reaches the next anchor.
 
   %  If the first rappeller is tied into the rope, the other end does not
   %  need a knot tied in. This is because the second rappeller keeps the rope
@@ -166,47 +231,66 @@
   %  rope being pulled from the anchor above sails past the climbers, it is
   %  unnecessary to retrieve the end to tie a knot in the end.
 
-  Finally, a slightly more advanced use of the pre-rigged rappel allows for two
-  climbers to safely rappel simultaneously---each climber using a single strand
-  of the rope---as long as there is at least one climber remaining at the top
-  of the pitch.  The pre-rigged rappel of the remaining climber locks the rope
-  in-place, avoiding many of the risks associated with counter-balanced rappels
-  and allowing each rappeller to weight their own strand independently.
-  \todo{This could use a reference.}
+  Further efficiency can be gained by groups of experienced climbers if a
+  slightly more advanced use of the pre-rigged rappel setup is used.  As long
+  as there at least one climber remaining at the anchor, with their rappel device
+  attached to the rope, two other climbers can safely rappel
+  simultaneously---each climber using a single strand of the rope instead of
+  two.  The pre-rigged rappel of the climber remaining at the top of the pitch
+  locks the rope in-place, avoiding many of the risks associated with
+  counter-balanced rappels: each rappeller can weight their own strand
+  independently.  This is highlighted in the bottom part of
+  Figure~\ref{fig:schematic}, labeled ``Advanced Pre-rigged Rappels``.
+
+  % TODO: Find a reference for this 
 
 % ==============================================================================
-\section{Limitations of Pre-Rigged Rappels}
+\section{Limitations}
 \label{sec:limitations}
 % ==============================================================================
 
-  Although pre-rigged rappels provide a number of benefits, there are also some
-  disadvantages that should be taken in to account when deciding on a rappel
-  strategy.  Additionally, there are some environmental considerations that may
-  make pre-rigged rappels an inappropriate choice strategy to employ.
+  Despite the previously outlined advantages to pre-rigging rappels, there are
+  also some disadvantages to this technique and environmental factors that
+  should be taken in to consideration when deciding on a rappel strategy to
+  employ with a group.  These will be discussed below.
 
 \subsection{Disadvantages to Pre-Rigged Rappels}
-  \begin{enumerate}
-  \item The first person down cannot do a pull test.  If there is a risk that
-    the rope will not pull cleanly, it is better to not pre-rig and have the
-    first person down do a pull test than to pre-rig and discover the rope
-    cannot be retrieved.
-  \item If the first person down were to become incompacitated such as by rock
-    fall, the second rappeller could not exit the system without cutting their
-    tether---another reason to always carry a small knife.
-  \end{enumerate}
+
+  One disadvantage to this technique is that the first person down will be
+  unable to perform a pull test on the rappel rope: the pre-rigged devices of
+  the climbers remaining at the top of the pitch will prevent the rope from
+  moving.  As such, if there is a risk that the rope will not pull cleanly from
+  below, it is better to at least start with a standard rappel strategy and
+  have the first person down make sure the rappel rope can be retrieved.  Once
+  satisfied, the remaining climbers can then switch to pre-rigged rappels.
+
+  Another disadvantage to this system is that if a rappeller is somehow
+  incapacitated half-way down the descent (e.g., by rockfall), the remaining
+  rappellers will not be able to easily exit the system.  The weight of the
+  injured climber will effectively lock their pre-rigged devices in the system,
+  requiring them to create a second tether and cut their original extension to
+  escape the system.  This in situations where rockfall injury is high, it
+  might be better to use standard rappel strategies.
 
 \subsection{Inappropriate Environments}
 
-  \begin{enumerate}
-  \item When crowding of more than three people make it impractical or even
-    dangerous to pre-rig everyone.  However, the first two or three
-    climbers---depending on the space around the anchor---can still pre-rig.
-  \item Pre-rigging should not be used in situations in which the rappel starts
-    above the rappel anchor (e.g. Ingall Peak South Ridge).
-  \end{enumerate}
+   There are a few environments where pre-rigged rappels might be
+   inappropriate.  For instance, if the rappel station is small or without a
+   good stance, and the group is large (i.e., more than 3 climbers), it might
+   be impractical for the entire group to approach the station and pre-rig.
+   However, in these situations, some of the benefits of pre-rigged rappels can
+   be gained by splitting the larger group in to two or more small groups, that
+   can each employ the pre-rigged strategy independently.
 
+   Additionally, stances where the rappel begins {\em above} the rappel station
+   (i.e., ``sit and spin'' rappels) make the pre-rigged strategy impractical.
+   For these types of anchors, a standard rappel strategy should be used
+   instead.
+
+\begin{comment}
 % ==============================================================================
-\section{Branch Acceptance and Recommendations}
+\section{Pre-Rigged Rappels and the Mountaineers}
+\label{sec:mountaineers}
 % ==============================================================================
 
   The Mountaineers' climbing classes teach pre-rigged rappels as follows:
@@ -236,7 +320,10 @@
   \caption{Current curriculum status of pre-rigged rappels in various courses
   at the Mountaineers branches}
   \end{table}
+\end{comment}
 
+
+\begin{comment}
 % ==============================================================================
 \section{CTAC Endorsement and Recommendation}
 % ==============================================================================
@@ -247,9 +334,38 @@
   that pre-rigging should be the standard operating procedure taught by The
   Mountaineers' climbing classes used on Mountaineers' field trips again under
   safe conditions.
+\end{comment}
+
+% ==============================================================================
+\section{Further Reading}
+\label{sec:reading}
+% ==============================================================================
+
+If the reader is interested in more discussion on this topic, there are a
+number of reputable online and printed resources that cover this technique in
+more detail.  Some of these are identified below.
+
+\begin{itemize}
+\item IFMGA guides Marc Chauvin and Rob Coppolillo describe the pre-rigged
+   rappel in their 2017 book ``The Mountain Guide Manual'' \cite[pp. 182-183]{mgm}
+\item IFMGA guide Jeff Ward recommends the use of pre-rigged and extended
+   rappels in a 2016 blog posting for Rock and Ice's ``Ask the Masters'' blog
+   series~\cite{www:ri-askthemaster-prerigged}
+\item IFMGA guide Dale Remsberg describes and recommend pre-rigged rappels in
+   the 2012 Climbing Magazine article titled ``Essential Skills: Pre-Rigging
+   Rappels''~\cite{www:climbing-prerigged}.
+\item A 2017 discussion on Mountain Project with input from recreational
+   climbers describes using the pre-rigged rappels as a way to mitigate risk
+   when rappelling with new climbers~\cite{www:mp-prerigged}
+\end{itemize}
+
+This list is intended to be a starting point for a interested readers and not a
+comprehensive list of all sources.
+
 
 % ==============================================================================
 \section{Conclusions}
+\label{sec:conclusion}
 % ==============================================================================
 
   Pre-rigging rappel devices have distinct safety and efficiency benefits
@@ -260,19 +376,6 @@
   blindly for all rappelling situations as there are important downsides and
   hazards that must be considered.
 
-% ==============================================================================
-\section{References}
-% ==============================================================================
-
-   \begin{itemize}
-   \item Pre-rigged rappel  is discussed in Mountain Project in 2017
-   \item Recommended use in Rock \& Ice Ask the Masters in 2016,
-   \item Benefits described in 2015 article in Climbing by Dale Remsberg.
-   \item Benefits and downsides identified in Alpine Savvy blog.
-   \item The Mountain Guide Manual, Marc Chauvin and Rob Coppolillo, ppg
-     182-183
-   \item AMGA reference for guides
-   \end{itemize}
 
 \bibliographystyle{plain}
 \bibliography{../ctac.bib}
