@@ -6,7 +6,7 @@ CTAC-2019-04, Climbing Technical Advisory Committee
 ---------------------------------------------------
 
 :contact:   ctac-mountaineers@gmail.com
-:version:   1.0.0
+:version:   1.0.0 (draft)
 :Published: April 4, 2019
 :Modified:  April 4, 2019
 
