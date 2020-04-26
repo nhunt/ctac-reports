@@ -1,0 +1,36 @@
+DOCID=$(shell basename $(CURDIR))
+BUILDDIR=build
+HTMLTARGET=$(BUILDDIR)/$(DOCID).html
+PDFTARGET=$(BUILDDIR)/$(DOCID).pdf
+SRC=$(DOCID).rst
+
+PDFTEX=pdflatex
+RST2HTML=rst2html.py
+RST2LATEX=rst2latex.py
+LATEXOPTS=
+HTMLOPTS=
+PDFOPTS=
+
+.PHONY: all
+all: $(BUILDDIR) $(HTMLTARGET) $(PDFTARGET)
+
+$(BUILDDIR):
+	if [ ! -d $(BUILDDIR) ]; then \
+	   mkdir -p $(BUILDDIR); \
+	fi
+
+$(BUILDDIR)/%.html: %.rst
+	$(RST2HTML) $(HTMLOPTS) $^ > $(HTMLTARGET)
+
+.SECONDARY: build/2019-04.tex
+$(BUILDDIR)/%.pdf: $(BUILDDIR)/%.tex
+	cp ../acmart.cls $(BUILDDIR)
+	$(PDFTEX) -output-directory $(BUILDDIR) $(PDFOPTS) $^
+	$(PDFTEX) -output-directory $(BUILDDIR) $(PDFOPTS) $^
+
+$(BUILDDIR)/%.tex: %.rst
+	$(RST2LATEX) $(LATEXOPTS) $^ > $@
+
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR)

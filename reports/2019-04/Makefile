@@ -1,1 +1,1 @@
-../Makefile.template
+../Makefile-rst.template
