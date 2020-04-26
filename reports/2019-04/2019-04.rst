@@ -13,7 +13,7 @@ Abstract
 ========
 
 This report discusses the selection of an appropriate climbing harness for the Mountaineers Basic Climbing class and experience climbs.
-CTAC recommends that Basic students use general-purpose rock climbing harnesses—rather than lightweight or other special-purposed harneses—as their main climbing harness for these programs.
+CTAC recommends that Basic students use general-purpose rock climbing harnesses—rather than lightweight or other special-purpose harnesses—as their main climbing harness for these programs.
 Based on manufacturer recommendations and the relevant climbing equipment standards, CTAC finds that the specialized harnesses are not an appropriate choice for beginners participating in an introductory course where a variety of techniques are introduced.
 In addition, CTAC recommends that lightweight harnesses not be used by students during experience climbs, though leaves the final determination regarding exceptions to course or climb leaders, based on the particular circumstances.
 
@@ -42,7 +42,7 @@ This can make the process of selecting a single harness course difficult for ine
 CTAC members have personally observed that a large amount of publicly-available information on climbing equipment (e.g., such as manufacturer marketing, online reviews, peer feedback, etc.) often emphasizes the benefits of smaller size or lighter-weight designs, rather than general-purpose use.
 Without prior climbing experience to draw from, it is difficult for Basic students to sift through this information and make an appropriate buying decision.
 
-Generally, we can simplify the types of harnesses in to two main varieties: those that are designed for limited types of terrain or application (i.e., "specialized"), and those that are not.
+Generally, we can simplify the types of harnesses into two main varieties: those that are designed for limited types of terrain or application (i.e., "specialized"), and those that are not.
 The specialized varieties often sacrifice harness comfort or robustness in order to decrease volume or weight, whereas the general-purpose harness designs typically focus on overall versatility and durability.
 
 The Mountaineers Basic Climbing Course is designed to introduce new climbers to multiple disciplines of climbing, including rock, glacier and steep snow and ice.
@@ -50,11 +50,11 @@ The course covers basic climbing techniques and a large variety of technical ski
 Each of these climbing disciplines and skills put unique demands on the climber's harness, and it is imperative that harnesses used by Basic students can adequately handle all of these demands.
 
 It is well-known to most Mountaineers that the Basic Climbing course can impose a non-trivial financial burden on incoming students.
-Understandly, most incoming Basic climbing students will purchase a single climbing harness that they intend to use for all course-related activities and climbs.
+Understandably, most incoming Basic climbing students will purchase a single climbing harness that they intend to use for all course-related activities and climbs.
 It is thus important that whichever harness Basic students obtains, it is suitable for the varied demands placed upon it by this program.
 By design, specialized harnesses are not up to the task.
 A light-weight alpine or ski mountaineering harness, for example, is not meant to be used for extended rock outings, a critical component of the Basic course.
-Not only would it go against the manufacturer's recommend use the equipment, but the reduced climber comfort may further distract the climber and negatively impact the student's overall experience. 
+Not only would it go against the manufacturer's recommended use of the equipment, but the reduced climber comfort may further distract the climber and negatively impact the student's overall experience.
 
 .. A large class of these harnesses, such as the Black Diamond Couloir, are optimized for specific types of terrain where the wearer does not expect to spend a significant amount of time hanging or falling.
 
@@ -80,14 +80,14 @@ __ https://www.petzl.com/US/EN/Sport/Harnesses/CORAX
 Are There Exceptions?
 ---------------------
 
-CTAC acknowledges that despite best efforts to encourage Basic students to use a general-purpose rock harness for all course activities, there will inevitably be situations where someone shows up to an event with a lightweight or special-purpose harness.
+CTAC acknowledges that despite best efforts to encourage Basic students to use a general-purpose rock harness for all course activities, there will inevitably be situations where someone shows up to an event with a specialized one instead.
 In these cases, CTAC leaves the final decision on whether to allow the use of the harness to the activity leader, but recommends those types of harnesses be disallowed for any activities that place high or extended strain on the harness, such as rappelling, hanging, ascending, or falling.
 An example of a scenario where a leader might permit the use of lightweight harnesses may be on a moderate glacier climb, where the main objective is to reach a safe high-point, and not to spend dedicated time practicing those types of skills.
 
 References and Further Reading
 ==============================
 
-For other takes on how to choose an climbing harness, we recommend the following resources as starting points:
+For other takes on how to choose a climbing harness, we recommend the following resources as starting points:
 
 * British Mountaineering Council. `Harnesses: A Guide for Climbers and Mountaineers`__.
 * Mountain Equipment Co-op.  `How To Choose a Climbing Harness`__. (accessed Oct 2019)  .
@@ -105,7 +105,7 @@ For more information regarding harness safety standards, we recommend the follow
 * George Steel, Union Internationale des Associations d'Alpinisme, UIAA Standard 105.  "Harnesses: Recommendations for Inspection and Retirement".  2001.
 * American Society for Testing and Materials, ASTM F1772-17. `Standard Specification for Harnesses for Rescue and Sport Activities`__. (accessed Oct 2019)
 
-__ http://www.astm.org/Standards/F1772.htm 
+__ http://www.astm.org/Standards/F1772.htm
 
 Conclusions
 ===========
