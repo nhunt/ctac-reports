@@ -6,7 +6,7 @@ CTAC-2019-04, Climbing Technical Advisory Committee
 ---------------------------------------------------
 
 :contact:   ctac-mountaineers@gmail.com
-:version:   1.0.0 (draft)
+:version:   1.0.0
 :Published: April 4, 2019
 :Modified:  April 4, 2019
 
@@ -55,4 +55,18 @@ Our primary concerns were student safety during activities that place high strai
 It was also noted that hanging in a lightweight harness may cause circulatory damage.
 We discussed whether lightweight harnesses would be appropriate during snow field trips and glacier climbs.
 
-\nocite{bmc:harness,mec:harness,rei:harness,rockandice:harness,en:harness,uiaa:harness,astm:harness}
+References and Further Reading
+==============================
+
+Relevant standards related to climbing harnesses:
+
+* European Standards, CSN EN 12277+A1.  "Mountaineering equipment - Harnesses - Safety requirements and test methods".  2018.
+* George Steel, Union Internationale des Associations d'Alpinisme, UIAA Standard 105.  "Harnesses: Recommendations for Inspection and Retirement".  2001.
+* American Society for Testing and Materials, ASTM F1772-17. "Standard Specification for Harnesses for Rescue and Sport Activities". http://www.astm.org/Standards/F1772.htm (accessed Oct 2019)
+
+Other recommendations on how to choose an appropriate climbing harness:
+
+* British Mountainnering Council. "Harnesses: A Guide for Climbers and Mountaineers". https://www.thebmc.co.uk/Handlers/DownloadHandler.ashx?id=1336
+* Mountain Equipment Co-op.  "How To Choose a Climbing Harness".  http://www.mec.ca/en/explore/how-to-choose-a-climbing-harness (accessed Oct 2019)
+* REI Co-Op.  "How to Choose Climbing Harnesses".  http://www.rei.com/learn/expert-advice/climbing-harness.html (accessed Oct 2019)
+* Rock & Ice, The Climber's Magazine.  "How to Choose a Harness".  http://www.rockandice.com/gear/buying-tips/how-to-choose-a-harness (accessed Oct 2019)
