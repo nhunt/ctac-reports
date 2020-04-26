@@ -1,12 +1,11 @@
-==============================
-Lightweight Climbing Harnesses
-==============================
----------------------------------------------------
-CTAC-2019-04, Climbing Technical Advisory Committee
----------------------------------------------------
+====================================
+Harness Selection for Basic Climbing
+====================================
 
+:author:    Climbing Technical Advisory Committee
 :contact:   ctac-mountaineers@gmail.com
-:version:   1.0.0
+:DocId:     2019-04
+:version:   2.0.0 (draft)
 :Published: April 4, 2019
 :Modified:  April 4, 2019
 
@@ -14,59 +13,84 @@ Abstract
 ========
 
 This report discusses the use of lightweight climbing harnesses within the context of Mountaineers Basic Climbing classes and experience climbs.
-Lightweight equipment is popular for good reason, however CTAC recommends that lightweight harnesses are not appropriate in beginning courses where a variety of techniques are introduced.
+Based on manufacturer recommendations and relevant climbing equipment standards, however CTAC recommends that lightweight harnesses are not appropriate in beginning courses where a variety of techniques are introduced.
 In addition, CTAC recommends that lightweight harnesses not be used on experience climbs.
 On glacier climbs, lightweight harnesses may be used if specifically allowed by the climb leader.
 
 Introduction
 ============
 
-In June of 2019, the Mountaineers Safety Committee requested a CTAC investigation of the use of lightweight harnesses in Basic Climbing classes and experience climbs.
-This request was prompted by a May 2019 incident report, describing a situation where a student was practicing rappelling on rock using a ski-mountaineering harness (in this case, the Black Diamond Couloir).
-Approximately halfway through the rappel, the student reported that the leg loop on the harness had "snapped".
-This was not a catastrophic harness failure, and the student was on a backup belay, so there was no accident or injury resulting from the failure.
-However, it was alarming for both the student and instructors.
+An incident occurred during a Mountaineers Basic Climbing Course activity in May of 2019, in which the leg-loop buckle on a Basic student's harness "snapped" while the student was on rappel.
+This rappel was a part of a required rock outing for the course, and the student was protected with a back-up belay throughout the rappel.
+This was not a catastrophic harness failure and there was no accident or injury resulting from the failure of the buckle, but the event understandably caused some alarm for both the student and the instructors.
 
-Discussion
-==========
+Once the student was safely lowered to the ground, everyone involved the incident examined the harness to see fully understand what had failed and why.
+The Basic student was using a light-weight harness for this rock outing, despite the harness' manufacturer recommending its use be limited to use by experienced climbers for ski mountaineering.
 
-The Mountaineers Basic Climbing course is designed to introduce new climbers to a wide variety of rock, glacier and snow climbing techniques.
-These skills include belaying, rappelling, and prusiking.
-Most Basic Climbing students will purchase a single harness to be used on all climbs.
+Choosing a Harness
+==================
 
-There are a wide variety of harnesses on the market, designed for many types of climbing.
-In our experience, publicly available information on harnesses, (e.g., company marketing, web reviews and bulletin board comments) often emphasize the benefits of weight reduction rather than general-purpose use.
+The Mountaineers Basic Climbing Course is designed to introduce new climbers to multiple disciplines of climbing, including rock, glacier and steep snow and ice.
+The course covers basic climbing techniques and a large variety of technical skills, including lead and follower belaying, vertical and low-angle rappelling, mechanical advantage haul systems, and rope-ascension using friction hitches.
+Each of these climbing disciplines and skills put unique demands on the climber's harness, and it is imperative that harnesses used by Basic students can adequately handle all of these demands.
+
+It is well-known to most Mountaineers that the Basic Climbing course can impose a non-trivial financial burden on incoming students:
+in addition to the course fee, most students need to obtain a significant amount of new climbing equipment, including clothing, sleeping bags/pads, stoves, ice axes, rock equipment, etc.
+In our experience, we have observed that as a result, most Basic climbing students will purchase a single climbing harness that they intend to use for all course-related activities and climbs.
+It is thus important that whichever harness Basic students obtains, it is suitable for the varied demands placed upon it by the course.
+
+There is a wide variety of harnesses on the market, designed for many types of climbing, which can make the process of selecting a single harness difficult for inexperienced Basic climbers.
+We have personally observed that a large amount of publicly-available information on climbing equipment (e.g., such as manufacturer marking, web forum reviews, peer feedback, etc.) often emphasizes the benefits of smaller size or lighter-weight, rather than general-purpose use.
 Without prior climbing experience to draw from, it is difficult for Basic Climbing students to sift through this information and make an appropriate buying decision.
 
-CTAC recommends that a rock harness be the standard for Basic Climbing students, as rock harnesses are robust, comfortable, and durable.
-We feel that Basic Climbing instructors and mentors should be clear when making recommendations on this critical component of the safety system.
+.. A large class of these harnesses, such as the Black Diamond Couloir, are optimized for specific types of terrain where the wearer does not expect to spend a significant amount of time hanging or falling.
 
-A harness used in Basic Climbing should have the following features:
+It thus necessarily falls on the course leaders and instructors to help educate the incoming Basic students on what makes a harness appropriate for use in the course.
+Due to the varied nature of the Basic curriculum, CTAC recommends that a general-purpose rock harness be the standard for Basic Climbing students, due to their general robustness and durability.
+Specifically, CTAC recommends that Basic harnesses have the following characteristics:
 
-* Belay loop
-* Comfortable padded belt
-* Visually verifiable safety buckle
+* they have been designed for extended use in vertical rock terrain;
+* they have a dedicated belay loop;
+* they have a comfortably padded belt, to accommodate extended hanging (e.g., during longer rappels, self-rescue practice, etc.);
+* they have visually verifiable safety-buckles.
 
-Conclusions
-===========
+We feel that Basic Climbing instructors and mentors should be clear when making recommendations on this critical component of the safety system and to actively dissuade students from purchasing special-purpose harnesses for use in the Basic course.
 
-We reviewed the incident report and discussed our experiences of teaching harness use in Basic Climbing classes.
-Our primary concerns were student safety during activities that place high strain on harnesses, such as rappelling, prusiking, and falling.
-It was also noted that hanging in a lightweight harness may cause circulatory damage.
-We discussed whether lightweight harnesses would be appropriate during snow field trips and glacier climbs.
+Are Lightweight Harnesses Ever Appropriate for a Basic Student?
+---------------------------------------------------------------
+
+CTAC acknowledges that despite best efforts to encourage Basic students to use a general-purpose rock harness for all course activities, there will inevitably be situations where someone shows up to an event with a lightweight or special-purpose harness.
+In these cases, CTAC leaves the final decision on whether to allow the use of the harness to the activity leader, but recommends those types of harnesses be disallowed for any activities that place high or extended strain on the harness, such as rappelling, hanging, ascending, or falling.
+An example of a scenario where a leader might permit the use of lightweight harnesses may be on a moderate glacier climb, where the main objective is to reach a safe high-point, and not to spend dedicated time practicing those types of skills.
 
 References and Further Reading
 ==============================
 
-Relevant standards related to climbing harnesses:
+For other takes on how to choose an appropriate climbing harness, we recommend the following resources as good starting points:
+
+* British Mountaineering Council. `Harnesses: A Guide for Climbers and Mountaineers`__.
+* Mountain Equipment Co-op.  `How To Choose a Climbing Harness`__. (accessed Oct 2019)  .
+* REI Co-Op.  `How to Choose Climbing Harnesses`__.  (accessed Oct 2019).
+* Rock & Ice, The Climber's Magazine.  `How to Choose a Harness`__.  (accessed Oct 2019).
+
+__ https://www.thebmc.co.uk/Handlers/DownloadHandler.ashx?id=1336
+__ http://www.mec.ca/en/explore/how-to-choose-a-climbing-harness
+__ http://www.rei.com/learn/expert-advice/climbing-harness.html
+__ http://www.rockandice.com/gear/buying-tips/how-to-choose-a-harness
+
+For more information regarding harness safety standards, we recommend the following:
 
 * European Standards, CSN EN 12277+A1.  "Mountaineering equipment - Harnesses - Safety requirements and test methods".  2018.
 * George Steel, Union Internationale des Associations d'Alpinisme, UIAA Standard 105.  "Harnesses: Recommendations for Inspection and Retirement".  2001.
-* American Society for Testing and Materials, ASTM F1772-17. "Standard Specification for Harnesses for Rescue and Sport Activities". http://www.astm.org/Standards/F1772.htm (accessed Oct 2019)
+* American Society for Testing and Materials, ASTM F1772-17. `Standard Specification for Harnesses for Rescue and Sport Activities`__. (accessed Oct 2019)
 
-Other recommendations on how to choose an appropriate climbing harness:
+__ http://www.astm.org/Standards/F1772.htm 
 
-* British Mountainnering Council. "Harnesses: A Guide for Climbers and Mountaineers". https://www.thebmc.co.uk/Handlers/DownloadHandler.ashx?id=1336
-* Mountain Equipment Co-op.  "How To Choose a Climbing Harness".  http://www.mec.ca/en/explore/how-to-choose-a-climbing-harness (accessed Oct 2019)
-* REI Co-Op.  "How to Choose Climbing Harnesses".  http://www.rei.com/learn/expert-advice/climbing-harness.html (accessed Oct 2019)
-* Rock & Ice, The Climber's Magazine.  "How to Choose a Harness".  http://www.rockandice.com/gear/buying-tips/how-to-choose-a-harness (accessed Oct 2019)
+Conclusions
+===========
+
+The Basic Climbing Course covers a broad spectrum of climbing skills and techniques, and Basic students need to have and use a climbing harness that can meet the varied demands.
+Given their lack of climbing experience, it is up to course instructors to help steer Basic students towards purchasing an appropriate harness for this course.
+Given that most students will use a single type of harness for all activities, CTAC recommends that Basic students obtain a standard, general-purpose rock climbing harness for this course.
+Our experience suggests that light weight or other special-purpose climbing harnesses are not capable of meeting the varied course demands, and would often require using a harness outside of the manufacturer's recommended setting.
+However, we also understand that every situation is unique, and ultimately suggest leaving the final say on whether or not a student's particular harness is appropriate for an activity up to the activity's leader.
